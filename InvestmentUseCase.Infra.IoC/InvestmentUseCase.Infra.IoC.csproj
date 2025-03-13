@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InvestmentUseCase.Domain\InvestmentUseCase.Domain.csproj" />
+    <ProjectReference Include="..\InvestmentUseCase.Infra.Auth\InvestmentUseCase.Infra.Auth.csproj" />
+    <ProjectReference Include="..\InvestmentUseCase.Infra.Data\InvestmentUseCase.Infra.Data.csproj" />
+    <ProjectReference Include="..\InvestmentUseCase.Infra.Notification\InvestmentUseCase.Infra.Notification.csproj" />
+  </ItemGroup>
+
+</Project>
